@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace prime_numbers
+namespace perfect_numbers
 {
     class Program
     {
@@ -10,24 +10,22 @@ namespace prime_numbers
             int x = int.Parse(Console.ReadLine());
             Console.WriteLine("enter the second number");
             int y = int.Parse(Console.ReadLine());
-            int z = 0;
-            for (int i = x; i <= y; i++)
+            for (int i = x; i < y; i++)
             {
-                for (int a = 1; a <= i; a++)
+                int z=0;
+                for (int k = 1; k < i; k++)
                 {
-                    if (i % a == 0)
-                        z++;
+                    if (i % k == 0)
+                    {
+                        z = z + k;
+                    }
                 }
-                if (z == 2)
-                {
-                    Console.WriteLine(i);
-                    z = 0;
-                }
-                else
-                    z=0;
-                }
+                    if(z==i)
+                    {
+                        Console.WriteLine(i);
+                    }
+                
             }
-
-
         }
     }
+}

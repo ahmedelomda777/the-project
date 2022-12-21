@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lVnPfiEUVwnPQwr5I6SPggsO9ffqb+LEiW4FPfrtpfSqNr+XHAhyPzsfUmZFyL94FcynazeTpzcERj3uyXSXdg==",
+  "dgSpecHash": "aG4aHcS7bvkauYkup73/YNsP9P8gYDHOtu86rBGrtaRn+00z00GyuzNqei1EcFDZ0yDYpwh0HrQxFr+/9qPB3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\omda\\source\\repos\\prime numbers\\prime numbers\\prime numbers.csproj",
+  "projectFilePath": "C:\\Users\\omda\\source\\repos\\perfect numbers\\perfect numbers\\perfect numbers.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
